@@ -4,14 +4,14 @@ public class Main {
 
     public static void main(String[] args) {
     //Задача 1
-	boolean a = true;
+	/*boolean a = true;
     byte b = 127;
     short c = 32767;
     int d = 1_000_000;
     long e = 250_000_000_000_567L;
     float f = 0.1234567f;
     double g = 2E300;
-    char h = 'Ж';
+    char h = 'Ж';*/
     //Задача 2
     float firstBoxerWeight = 78.2f;
     float secondBoxerWeight = 82.7f;
@@ -55,5 +55,26 @@ public class Main {
     int newKristinasAnnualIncome = KristinasSalary * 12;
     int kristinasAnnualIncomeGrowth = newKristinasAnnualIncome - oldKristinasAnnualIncome;
     System.out.println("Кристина теперь получает " + KristinasSalary + " рублей. Годовой доход вырос на " + kristinasAnnualIncomeGrowth + " рублей");
+    System.out.println("Дальше идет доп. задание");
+    //Задача 6
+    int a = 12;
+    int b = 27;
+    int c = 44;
+    int d = 15;
+    int e = 9;
+    int result = a * (b + (c - d * e));
+    System.out.println(-result);
+    //Задача 7
+    a = 5;
+    b = 7;
+    a = a + b;
+    b = a - b;
+    a = a - b;
+    System.out.println("a = " + a);
+    System.out.println("b = " + b);
+    //Задача 8
+    a = 496;
+    b = (a % 100) / 10;
+    System.out.println(b);
     }
 }
